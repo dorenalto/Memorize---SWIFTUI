@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F450EC192FE8A268004DB1D5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC182FE8A21A004DB1D5 /* HeaderView.swift */; };
+		F450EC1B2FE8A3C6004DB1D5 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC1A2FE8A3B7004DB1D5 /* FooterView.swift */; };
+		F450EC1F2FE8A43E004DB1D5 /* VictoryBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC1E2FE8A43E004DB1D5 /* VictoryBadge.swift */; };
+		F450EC212FE8A5D2004DB1D5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC202FE8A5C9004DB1D5 /* CardView.swift */; };
+		F450EC232FE8A60B004DB1D5 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC222FE8A5FE004DB1D5 /* ThemePickerView.swift */; };
+		F450EC262FE8B86E004DB1D5 /* EmojiMemoryGameTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = F450EC252FE8B858004DB1D5 /* EmojiMemoryGameTests.swift */; };
+		F450EC282FE8B8CC004DB1D5 /* MemoryGamePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450EC272FE8B8C5004DB1D5 /* MemoryGamePerformanceTests.swift */; };
 		F46F3D2D2CA439F800778C7C /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D2C2CA439F800778C7C /* MemorizeApp.swift */; };
 		F46F3D2F2CA439F800778C7C /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D2E2CA439F800778C7C /* EmojiMemoryGameView.swift */; };
 		F46F3D312CA439FB00778C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F3D302CA439FB00778C7C /* Assets.xcassets */; };
 		F46F3D342CA439FB00778C7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F3D332CA439FB00778C7C /* Preview Assets.xcassets */; };
-		F46F3D3E2CA439FC00778C7C /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D3D2CA439FC00778C7C /* MemorizeTests.swift */; };
+		F46F3D3E2CA439FC00778C7C /* MemorizeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D3D2CA439FC00778C7C /* MemorizeGameTests.swift */; };
 		F46F3D482CA439FC00778C7C /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D472CA439FC00778C7C /* MemorizeUITests.swift */; };
 		F46F3D4A2CA439FC00778C7C /* MemorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D492CA439FC00778C7C /* MemorizeUITestsLaunchTests.swift */; };
 		F46F3D572CA468AC00778C7C /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3D562CA468AC00778C7C /* MemoryGame.swift */; };
@@ -42,13 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F450EC182FE8A21A004DB1D5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F450EC1A2FE8A3B7004DB1D5 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		F450EC1E2FE8A43E004DB1D5 /* VictoryBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryBadge.swift; sourceTree = "<group>"; };
+		F450EC202FE8A5C9004DB1D5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F450EC222FE8A5FE004DB1D5 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		F450EC252FE8B858004DB1D5 /* EmojiMemoryGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameTests.swift; sourceTree = "<group>"; };
+		F450EC272FE8B8C5004DB1D5 /* MemoryGamePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGamePerformanceTests.swift; sourceTree = "<group>"; };
 		F46F3D292CA439F800778C7C /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F3D2C2CA439F800778C7C /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		F46F3D2E2CA439F800778C7C /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		F46F3D302CA439FB00778C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46F3D332CA439FB00778C7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F46F3D392CA439FC00778C7C /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F46F3D3D2CA439FC00778C7C /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
+		F46F3D3D2CA439FC00778C7C /* MemorizeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameTests.swift; sourceTree = "<group>"; };
 		F46F3D432CA439FC00778C7C /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F3D472CA439FC00778C7C /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
 		F46F3D492CA439FC00778C7C /* MemorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -87,6 +101,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F450EC162FE8A1B8004DB1D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F450EC202FE8A5C9004DB1D5 /* CardView.swift */,
+				F46F3D2E2CA439F800778C7C /* EmojiMemoryGameView.swift */,
+				F450EC172FE8A1DA004DB1D5 /* Components */,
+				F450EC242FE8AB20004DB1D5 /* ThemePicker */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F450EC172FE8A1DA004DB1D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F450EC1E2FE8A43E004DB1D5 /* VictoryBadge.swift */,
+				F450EC1A2FE8A3B7004DB1D5 /* FooterView.swift */,
+				F450EC182FE8A21A004DB1D5 /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F450EC242FE8AB20004DB1D5 /* ThemePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F450EC222FE8A5FE004DB1D5 /* ThemePickerView.swift */,
+			);
+			path = ThemePicker;
+			sourceTree = "<group>";
+		};
 		F46F3D202CA439F800778C7C = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +153,8 @@
 		F46F3D2B2CA439F800778C7C /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				F450EC162FE8A1B8004DB1D5 /* Views */,
 				F46F3D2C2CA439F800778C7C /* MemorizeApp.swift */,
-				F46F3D2E2CA439F800778C7C /* EmojiMemoryGameView.swift */,
 				F46F3D642CA5D03900778C7C /* Cardify.swift */,
 				F46F3D622CA5C93700778C7C /* Pie.swift */,
 				F46F3D5A2CA57CEB00778C7C /* Grid.swift */,
@@ -137,7 +180,9 @@
 		F46F3D3C2CA439FC00778C7C /* MemorizeTests */ = {
 			isa = PBXGroup;
 			children = (
-				F46F3D3D2CA439FC00778C7C /* MemorizeTests.swift */,
+				F450EC272FE8B8C5004DB1D5 /* MemoryGamePerformanceTests.swift */,
+				F450EC252FE8B858004DB1D5 /* EmojiMemoryGameTests.swift */,
+				F46F3D3D2CA439FC00778C7C /* MemorizeGameTests.swift */,
 			);
 			path = MemorizeTests;
 			sourceTree = "<group>";
@@ -215,7 +260,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					F46F3D282CA439F800778C7C = {
 						CreatedOnToolsVersion = 15.4;
@@ -264,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F450EC262FE8B86E004DB1D5 /* EmojiMemoryGameTests.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F450EC212FE8A5D2004DB1D5 /* CardView.swift in Sources */,
 				F46F3D572CA468AC00778C7C /* MemoryGame.swift in Sources */,
 				F46F3D2F2CA439F800778C7C /* EmojiMemoryGameView.swift in Sources */,
 				F46F3D2D2CA439F800778C7C /* MemorizeApp.swift in Sources */,
 				F46F3D632CA5C93700778C7C /* Pie.swift in Sources */,
 				F46F3D5D2CA586C900778C7C /* GridLayout.swift in Sources */,
+				F450EC192FE8A268004DB1D5 /* HeaderView.swift in Sources */,
+				F450EC232FE8A60B004DB1D5 /* ThemePickerView.swift in Sources */,
 				F46F3D5B2CA57CEB00778C7C /* Grid.swift in Sources */,
 				F46F3D5F2CA58F0300778C7C /* Array+Identifiable.swift in Sources */,
 				F46F3D592CA46C1400778C7C /* EmojiMemoryGame.swift in Sources */,
+				F450EC1B2FE8A3C6004DB1D5 /* FooterView.swift in Sources */,
 				F46F3D652CA5D03900778C7C /* Cardify.swift in Sources */,
+				F450EC1F2FE8A43E004DB1D5 /* VictoryBadge.swift in Sources */,
 				F46F3D612CA5A75F00778C7C /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46F3D3E2CA439FC00778C7C /* MemorizeTests.swift in Sources */,
+				F450EC282FE8B8CC004DB1D5 /* MemoryGamePerformanceTests.swift in Sources */,
+				F46F3D3E2CA439FC00778C7C /* MemorizeGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +437,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -441,6 +494,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -461,6 +515,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +544,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,7 +561,6 @@
 		F46F3D512CA439FC00778C7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -524,7 +579,6 @@
 		F46F3D522CA439FC00778C7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,7 +597,6 @@
 		F46F3D542CA439FC00778C7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -560,7 +613,6 @@
 		F46F3D552CA439FC00778C7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -1,0 +1,80 @@
+touch .gitignore
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.xcscheme
+*.xcmappingmodel
+*.xcconfig
+*.xcfilelist
+*.xctestplan
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+*.framework
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+*.swiftpm
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# macOS
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+# iOS
+*.app
+*.framework
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Coverage
+*.gcda
+*.gcno
+*.gcov
+*.xccoverage
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.p12
